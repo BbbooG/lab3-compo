@@ -1,8 +1,11 @@
 <template>
+  <div class="wrap">
     <div class="students">
       <span>Name: {{ student.name }}</span>
-      <span>Surname: {{ student.surname }}</span>
+      <p>Surname: {{ student.surname }}</p>
+      <p>GPA: {{ student.gpa }}</p>
     </div>
+  </div>
   </template>
   
   <script setup lang="ts">
@@ -24,7 +27,8 @@
     border: 1px solid #39495c;
     margin-bottom: 18px;
     margin-top: 20px;
-    
   }
+
+  
   </style>
 
