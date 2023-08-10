@@ -1,4 +1,5 @@
 <template>
+    
     <div class="event-class">
         <div class="event-card">
             <span>@{{ event.time }} on {{ event.date }}</span>
